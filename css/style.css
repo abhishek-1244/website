@@ -147,7 +147,19 @@ padding-bottom: 100px;
     margin-right: 70px;
   }
 
-  .poster {
-    flex-direction: column-reverse;
+  .poster div{
+    width: 100%;
+
+  }
+  .column2 img{
+    padding-left: 10%;
+  }
+  .column1 h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .column1 h3{
+    text-align: center;
+    padding-bottom: 50px;
   }
 }
