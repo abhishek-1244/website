@@ -114,7 +114,6 @@ flex: 60%;
     display: unset;
     color: white;
     margin-right: 100px;
-    width: 100px;
   }
   .poster{
     flex-direction: column-reverse;
