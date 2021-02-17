@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: serif;
+}
+
+/*===============================nevbar===================*/
+.navbar {
+  background-color: rgba(40, 58, 90, 0.9);
+  display: flex;
+  height: 10vh;
+}
+
+.logo img {
+  filter: invert(100%);
+  width: 30%;
+}
+
+.logo {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.leftNav {
+  width: 50%;
+}
+
+.rightNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.nav_list {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav_list li {
+  padding: 0 30px;
+  list-style: none;
+}
+
+.nav_list li a {
+  text-decoration: none;
+  white-space: nowrap;
+  color: white;
+}
+
+.nav_list li a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+.get-started-btn {
+  padding: 5px 25px;
+  margin: 10px 20px;
+  border: 2px;
+  border-style: solid;
+  border-color: #19d3da;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  white-space: nowrap;
+}
+
+.menu {
+  display: none;
+}
+
+/* ==============================poster======================*/
+.poster {
+  display: flex;
+  background-color: #37517e;
+  flex-wrap: wrap;
+}
+h1{
+	font-size: 3rem;
+	width: 70%;
+	color: white;
+}
+
+
+.column1 {
+flex: 60%;
+
+}
+.column2{
+	flex: 40%;
+}
+
+.column2 img{
+  width: 100%;
+}
+
+/* ===========================media quary ========================*/
+@media (max-width: 850px) {
+  .logo img {
+    width: 70%;
+  }
+
+  .nav_list {
+    display: none;
+  }
+
+  .menu {
+    display: unset;
+    color: white;
+    margin-right: 20px;
+    width: 100px;
+  }
+  .poster{
+    flex-direction: column-reverse;
+  }
+}
