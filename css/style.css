@@ -77,27 +77,55 @@ body {
 
 /* ==============================poster======================*/
 .poster {
+  padding-top: 72px;
+  padding-left: 15px;
+  padding-right: 15px;
   display: flex;
   background-color: #37517e;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
 }
-h1{
-	font-size: 3rem;
-	width: 70%;
-	color: white;
-}
-
-
 .column1 {
-flex: 60%;
-
-}
-.column2{
-	flex: 40%;
+  border: 2px solid;
+  width: 40%;
 }
 
-.column2 img{
+.column1 h1 {
+  font-size: 3.7rem;
+  color: white;
+
+  padding-bottom: 20px;
+}
+
+.column1 h3 {
   width: 100%;
+  color: #fff9;
+padding-bottom: 100px;
+}
+
+.column1 a{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.column2 {
+  border: 2px solid red;
+  width: 30%;
+}
+
+.column2 img {
+  animation: updown 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 /* ===========================media quary ========================*/
@@ -109,8 +137,9 @@ flex: 60%;
   .nav_list {
     display: none;
   }
+
   .get-started-btn {
-  padding: 5px 15px;
+    padding: 5px 15px;
   }
 
   .menu {
@@ -118,7 +147,8 @@ flex: 60%;
     color: white;
     margin-right: 70px;
   }
-  .poster{
+
+  .poster {
     flex-direction: column-reverse;
   }
 }
