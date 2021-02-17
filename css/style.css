@@ -109,6 +109,9 @@ flex: 60%;
   .nav_list {
     display: none;
   }
+  .get-started-btn {
+  padding: 5px 15px;
+  }
 
   .menu {
     display: unset;
