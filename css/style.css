@@ -152,6 +152,10 @@ a {
   text-align: center;
 }
 
+.poster-btn{
+  margin-bottom: 2rem;
+}
+
 .poster-heading {
   align-items: center;
   justify-content: center !important;
@@ -172,7 +176,7 @@ a {
 
 /* ===============services section================ */
 #services{
-  padding: 10% 5% 15% 10%;
+  padding: 5% 10%;
   background-color:#f3f5fa;
   text-align: center;
 }
