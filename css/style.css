@@ -9,6 +9,7 @@ body {
 
 a {
   font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
 }
 
 .section-name {
@@ -43,8 +44,7 @@ a {
   left: calc(50% - 20px);
 }
 
-/* ================ navbar========== */
-
+/* =======================navbar=============== */
 .main-navbar {
   background-color: rgba(40, 58, 90, 0.9);
   padding-left: 12%;
@@ -118,7 +118,6 @@ a {
 
 /* =====================poster section =============================*/
 .poster {
-  height: 75vh;
   padding-top: 72px;
   padding-left: 12%;
   background-color: #37517e;
@@ -142,29 +141,29 @@ a {
   size: 4rem;
   line-height: 1;
   padding-bottom: 1rem;
+  margin-top: 2rem!important;
+  text-align: center;
 }
 
 .poster h3 {
   font-family: 'Ubuntu', sans-serif;
   color: #fff9;
   padding-bottom: 4rem;
+  text-align: center;
 }
 
 .poster-heading {
+  align-items: center;
   justify-content: center !important;
   flex-direction: column !important;
   display: flex !important;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 550px) {
   .poster-heading {
     order: 2 !important;
     text-align: center;
     padding-left: 0;
-  }
-
-  .poster {
-    height: 100vh;
   }
 }
 
